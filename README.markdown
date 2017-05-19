@@ -1,6 +1,6 @@
 # DeviseCouch for Devise and CouchrestModel
 
-*devise_couch* will let you use [devise](http://github.com/plataformatec/devise) with [CocuhrestModel](http://github.com/couchrest/couchrest_model). 
+*devise_couch* will let you use [devise](http://github.com/plataformatec/devise) with [CouchrestModel](http://github.com/couchrest/couchrest_model). 
 
 ## Installation
 
@@ -23,7 +23,7 @@ Run the generator:
 
 The generator will install an initializer which describes ALL Devise's
 configuration options and you MUST take a look at it. Make sure to specify
-either <code>couchrest_model</code> (ActiveModel::Validations) 
+either <code>couchrest_model</code> or (ActiveModel::Validations) 
 as the orm in the configuration file.
 
 To add Devise to any of your models using the generator:
@@ -34,7 +34,7 @@ Example: create a User model for use with Devise
 
 <pre>rails generate couchrest_model:devise User</pre>
 
-Read the README for devise at [devise README](http://github.com/plataformatec/devise/blob/master/README.rdoc)
+Read the README for devise at [devise README](http://www.rubydoc.info/github/plataformatec/devise/master/frames)
 
 ## Note on Patches/Pull Requests
  
